@@ -10,7 +10,36 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<form>
+		<h1>Book List</h1>
+		<lable for="title">Title</lable>
+		<br>
+		 <input type="text" id="title">
+		<br>
+		 
+		<lable for="author">Author</lable>
+		<br>
+		<input type="text" id="author">
+		<br>
+		 
+		<label for="isbn">ISBN#</label>
+		 <br>
+	  <input type="number" id="isbn">
+	<br>
+	<input type="button" id="submit" value="Add Book">
+	</form>
+	 <table class="myTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                </tr>
+            </thead>
+            <tbody id="bookList">
+                
+            </tbody>
+        </table>
 </body>
 
 </html>
